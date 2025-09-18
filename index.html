@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="style.css" rel="stylesheet">
+  <title>J. Saravanan | MERN Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <header>
+    <h1>J. Saravanan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section id="hero" class="container">
+    <div class="hero-text">
+      <h2>I'm <span>Saravanan  .J</span><br>MERN Stack Developer</h2>
+      <p>Building modern, responsive, and user-friendly applications with MERN and core web technologies.</p>
+      <a href="#projects">My Projects</a>
+    </div>
+    <div class="hero-img">
+      <img src="image/WhatsApp Image 2025-09-18 at 13.45.38_2063b8f7.jpg" alt="J. Saravanan">
+    </div>
+  </section>
+
+ 
+  <section id="about" class="container">
+    <h2>Who Am I?</h2>
+    <p>
+      I'm a passionate MERN Stack Developer with expertise in full-stack web development.  
+      Skilled in both frontend and backend, I deliver scalable, user-focused applications.  
+      Always eager to learn, I combine creativity with technology to create impactful digital solutions.
+    </p>
+  </section>
+
+
+  <section id="skills" class="container">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><br>HTML</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><br>CSS</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><br>JavaScript</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><br>React</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><br>Node.js</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"><br>Express.js</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><br>MongoDB</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><br>MySQL</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><br>Core Java</div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"><br>Bootstrap</div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="container">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      
+      <div class="project">
+        <img src="image/outdoor.png" alt="Outdoor Guide Website">
+        <div>
+          <h3>Outdoor Guide Website</h3>
+          <p>A modern outdoor adventure guide platform with responsive UI and useful features.</p>
+          <p>
+            <a href="https://saravanan-io.github.io/outdoor-guide-website/" target="_blank">🔗 Live Demo</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="image/calculator.png" alt="Cosmic Neon Calculator">
+        <div>
+          <h3>Cosmic Neon Calculator</h3>
+          <p>A stylish, responsive calculator with creative neon animations.</p>
+          <p>
+            <a href="https://saravanan-io.github.io/calculator/" target="_blank">🔗 Live Demo</a>
+            <a href="https://github.com/Saravanan-io/calculator.git" target="_blank">💻 GitHub</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="image/turf.png" alt="Turf Booking Website">
+        <div>
+          <h3>Turf Booking Website</h3>
+          <p>A responsive web application for booking sports turf slots online. Features include slot availability, 
+          modern design, interactive booking form, and real-time confirmation alerts.</p>
+          <p>
+            <a href="https://saravanan-io.github.io/Turf-booking-website/" target="_blank">🔗 Live Demo</a>
+            <a href="https://github.com/Saravanan-io/Turf-booking-website" target="_blank">💻 GitHub</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="contact" class="container">
+    <h2>Let's Have a Chat</h2>
+    <form onsubmit="handleForm(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit Here</button>
+    </form>
+    <p style="text-align:center; margin-top:15px;">
+      📞 9715880005 | 📧 <a href="mailto:thisissaravanan84@gmail.com">thisissaravanan84@gmail.com</a>
+    </p>
+    <p style="text-align:center;">
+      <a href="https://www.linkedin.com/in/saravanan-j-6b2930282" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Saravanan-io" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 J. Saravanan | All Rights Reserved
+  </footer>
+
+  <script>
+    function handleForm(e) {
+      e.preventDefault();
+      alert("Thank you! Your message has been sent.");
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
